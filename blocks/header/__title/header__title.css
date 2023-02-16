@@ -1,0 +1,18 @@
+.header__title{
+    width: 77.5%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header__title-text{  
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}

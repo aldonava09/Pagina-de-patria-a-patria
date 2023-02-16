@@ -1,0 +1,20 @@
+/* import vendor at-rules*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+
+/* import root at-rules*/
+@import url(../blocks/root/root.css);
+
+/* import logo at-rules*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
+
+/* import header at-rules*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__image/header__image.css);
+
+*{
+    outline: 2px solid rgb(0, 208, 255);
+}

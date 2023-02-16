@@ -1,0 +1,17 @@
+.header__subtitle{
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.header__subtitle-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
