@@ -1,0 +1,22 @@
+.intro__qoute{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.42;
+    color: #FFFFFF;
+}
+
+.intro__qoute-author{
+    width: 70%;
+    position: absolute;
+    bottom: 10.9375rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: right;
+    color: #FFFFFF;
+}
