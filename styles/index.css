@@ -29,3 +29,238 @@
 *{
     outline: 2px solid rgb(0, 208, 255);
 }
+
+.places{
+    margin: auto;
+    width: 80%;
+}
+
+.places__kiev{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 8%;
+}
+
+.places__kiev-title-container{
+    width: 45%;
+    height: 152px;
+    margin: 0;
+    margin-right: 2.5rem;
+}
+.places__kiev-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.places__kiev-artista-container{
+    width:fit-content;
+    height: fit-content;
+    margin-top: 6.875rem;
+}
+
+.places__kiev-artista-heading{
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.places__kiev-artista{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.places__kiev-image-container{
+    width: 45%;
+    height: fit-content;
+    margin: 0;
+    margin-right: 40px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.places__kiev-image{
+    width: fit-content;
+    height: fit-content;
+}
+
+.places__kiev-paragraph-container{
+    width: 51%;
+    height: fit-content;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.places__kiev-paragraph-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.places__kiev-paragraph-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 1.5625rem;
+}
+
+.places__kiev-link{
+    width: 33%;
+    background: #0278FE;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.places__kiev-link:hover{
+    background-color: #0063D2;
+}
+
+.places__criccieth{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 8%;
+}
+
+.places__criccieth-title-container{
+    width: 45%;
+    height: 152px;
+    margin: 0;
+    margin-right: 2.5rem;
+}
+.places__criccieth-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.places__criccieth-artista-container{
+    width:fit-content;
+    height: fit-content;
+    margin-top: 5.5rem;
+}
+
+.places__criccieth-artista-heading{
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.places__criccieth-artista{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.places__criccieth-image-container{
+    width: 45%;
+    height: fit-content;
+    margin: 0;
+    margin-right: 40px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.places__criccieth-image{
+    width: fit-content;
+    height: fit-content;
+}
+
+.places__criccieth-paragraph-container{
+    width: 51%;
+    height: fit-content;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.places__criccieth-paragraph-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.places__criccieth-paragraph-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 1.5625rem;
+}
+
+.places__criccieth-link{
+    width: 33%;
+    background: #0278FE;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.places__criccieth-link:hover{
+    background-color: #0063D2;
+}
