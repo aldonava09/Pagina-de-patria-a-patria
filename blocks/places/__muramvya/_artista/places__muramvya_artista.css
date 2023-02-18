@@ -1,12 +1,10 @@
-.places__berea-artista-container{
+.places__muramvya-artista-container{
     width:fit-content;
     height: fit-content;
     margin-top: 10.5%;
-    position: relative;
-    left: -4%;
 }
 
-.places__berea-artista-heading{
+.places__muramvya-artista-heading{
     width: fit-content;
     font-family: 'Inter';
     font-style: normal;
@@ -20,7 +18,7 @@
     margin-bottom: 2%;
 }
 
-.places__berea-artista{
+.places__muramvya-artista{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

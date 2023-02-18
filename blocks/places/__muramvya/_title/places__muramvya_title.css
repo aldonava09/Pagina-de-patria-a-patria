@@ -1,10 +1,10 @@
-.places__kiev-title-container{
+.places__muramvya-title-container{
     width: 45%;
     height: 152px;
     margin: 0;
-    margin-right: 4%;
+    margin-right: 2.5rem;
 }
-.places__kiev-title{
+.places__muramvya-title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;

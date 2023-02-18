@@ -1,7 +1,7 @@
 .places__kiev-artista-container{
     width:fit-content;
     height: fit-content;
-    margin-top: 6.875rem;
+    margin-top: 10.5%;
 }
 
 .places__kiev-artista-heading{
@@ -15,7 +15,7 @@
     text-transform: uppercase;
     color: #AAAAAA;
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2%;
 }
 
 .places__kiev-artista{

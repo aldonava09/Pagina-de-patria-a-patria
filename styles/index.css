@@ -45,6 +45,15 @@
 @import url(../blocks/places/__berea/_paragraph/places__berea_paragraph.css);
 @import url(../blocks/places/__berea/_link/places__berea_link.css);
 
+
+/* import places__muramvya at-rules*/
+@import url(../blocks/places/__muramvya/places__muramvya.css);
+@import url(../blocks/places/__muramvya/_title/places__muramvya_title.css);
+@import url(../blocks/places/__muramvya/_artista/places__muramvya_artista.css);
+@import url(../blocks/places/__muramvya/_image/places__muramvya_image.css);
+@import url(../blocks/places/__muramvya/_paragraph/places__muramvya_paragraph.css);
+@import url(../blocks/places/__muramvya/_link/places__muramvya_link.css);
+
 *{
     outline: 2px solid rgb(0, 208, 255);
 }
@@ -67,7 +76,7 @@
     width: 45%;
     height: 152px;
     margin: 0;
-    margin-right: 2.5rem;
+    margin-right: 4%;
 }
 .places__criccieth-title{
     font-family: 'Inter';
@@ -83,7 +92,7 @@
 .places__criccieth-artista-container{
     width:fit-content;
     height: fit-content;
-    margin-top: 5.5rem;
+    margin-top: 8.5%;
 }
 
 .places__criccieth-artista-heading{
@@ -97,7 +106,7 @@
     text-transform: uppercase;
     color: #AAAAAA;
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2%;
 }
 
 .places__criccieth-artista{
@@ -168,5 +177,12 @@
 .places__criccieth-link:hover{
     background-color: #0063D2;
 }
+
+
+
+
+
+
+
 
 
