@@ -1,0 +1,29 @@
+.places__kiev-artista-container{
+    width:fit-content;
+    height: fit-content;
+    margin-top: 6.875rem;
+}
+
+.places__kiev-artista-heading{
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.places__kiev-artista{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin: 0;
+}

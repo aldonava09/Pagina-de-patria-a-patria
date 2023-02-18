@@ -1,0 +1,8 @@
+.places__kiev{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 8%;
+}

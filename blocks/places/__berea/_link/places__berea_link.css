@@ -1,0 +1,16 @@
+.places__berea-link{
+    width: 33%;
+    background: #0278FE;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.places__berea-link:hover{
+    background-color: #0063D2;
+}

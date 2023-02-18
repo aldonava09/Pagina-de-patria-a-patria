@@ -1,0 +1,15 @@
+.places__kiev-title-container{
+    width: 45%;
+    height: 152px;
+    margin: 0;
+    margin-right: 2.5rem;
+}
+.places__kiev-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFFFFF;
+    margin: 0;
+}

@@ -24,131 +24,35 @@
 /* import photo-grid at-rules*/
 @import url(../blocks/photo-grid/photo-grid.css);
 
+/* import places at-rules*/
+@import url(../blocks/places/places.css);
 
+/* import places__kiev at-rules*/
+@import url(../blocks/places/__kiev/places__kiev.css);
+@import url(../blocks/places/__kiev/_title/places__kiev_title.css);
+@import url(../blocks/places/__kiev/_artista/places__kiev_artista.css);
+@import url(../blocks/places/__kiev/_image/places__kiev_image.css);
+@import url(../blocks/places/__kiev/_paragraph/places__kiev_paragraph.css);
+@import url(../blocks/places/__kiev/_link/places__kiev_link.css);
+
+/* import places__criccieth at-rules*/
+
+/* import places__berea at-rules*/
+@import url(../blocks/places/__berea/places__berea.css);
+@import url(../blocks/places/__berea/_title/places__berea_title.css);
+@import url(../blocks/places/__berea/_artista/places__berea_artista.css);
+@import url(../blocks/places/__berea/_image/places__berea_image.css);
+@import url(../blocks/places/__berea/_paragraph/places__berea_paragraph.css);
+@import url(../blocks/places/__berea/_link/places__berea_link.css);
 
 *{
     outline: 2px solid rgb(0, 208, 255);
 }
 
-.places{
-    margin: auto;
-    width: 80%;
-}
 
-.places__kiev{
-    width: 100%;
-    height: fit-content;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap; 
-    margin-bottom: 8%;
-}
 
-.places__kiev-title-container{
-    width: 45%;
-    height: 152px;
-    margin: 0;
-    margin-right: 2.5rem;
-}
-.places__kiev-title{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 1.06;
-    color: #FFFFFF;
-    margin: 0;
 
-}
 
-.places__kiev-artista-container{
-    width:fit-content;
-    height: fit-content;
-    margin-top: 6.875rem;
-}
-
-.places__kiev-artista-heading{
-    width: fit-content;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.2;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #AAAAAA;
-    margin: 0;
-    margin-bottom: 0.5rem;
-}
-
-.places__kiev-artista{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.places__kiev-image-container{
-    width: 45%;
-    height: fit-content;
-    margin: 0;
-    margin-right: 40px;
-    margin-top: 48px;
-    margin-bottom: 48px;
-}
-
-.places__kiev-image{
-    width: fit-content;
-    height: fit-content;
-}
-
-.places__kiev-paragraph-container{
-    width: 51%;
-    height: fit-content;
-    margin: 0;
-    margin-top: 48px;
-}
-
-.places__kiev-paragraph-1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.places__kiev-paragraph-2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    margin: 0;
-    margin-top: 1.5625rem;
-}
-
-.places__kiev-link{
-    width: 33%;
-    background: #0278FE;
-    border-radius: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.places__kiev-link:hover{
-    background-color: #0063D2;
-}
 
 .places__criccieth{
     width: 100%;
@@ -210,9 +114,9 @@
     width: 45%;
     height: fit-content;
     margin: 0;
-    margin-right: 40px;
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .places__criccieth-image{
@@ -224,7 +128,7 @@
     width: 51%;
     height: fit-content;
     margin: 0;
-    margin-top: 48px;
+    margin-top: 5%;
 }
 
 .places__criccieth-paragraph-1{
@@ -245,7 +149,7 @@
     line-height: 1.63;
     color: #FFFFFF;
     margin: 0;
-    margin-top: 1.5625rem;
+    margin-top: 5%;
 }
 
 .places__criccieth-link{
@@ -264,3 +168,5 @@
 .places__criccieth-link:hover{
     background-color: #0063D2;
 }
+
+
