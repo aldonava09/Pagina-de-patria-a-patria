@@ -1,0 +1,7 @@
+.places__colima{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+}

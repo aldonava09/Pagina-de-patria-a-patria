@@ -23,6 +23,7 @@
 
 /* import photo-grid at-rules*/
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* import places at-rules*/
 @import url(../blocks/places/places.css);
@@ -36,6 +37,12 @@
 @import url(../blocks/places/__kiev/_link/places__kiev_link.css);
 
 /* import places__criccieth at-rules*/
+@import url(../blocks/places/__criccieth/places__criccieth.css);
+@import url(../blocks/places/__criccieth/_title/places__criccieth_title.css);
+@import url(../blocks/places/__criccieth/_artista/places__criccieth_artista.css);
+@import url(../blocks/places/__criccieth/_image/places__criccieth_image.css);
+@import url(../blocks/places/__criccieth/_paragraph/places__criccieth_paragraph.css);
+@import url(../blocks/places/__criccieth/_link/places__criccieth_link.css);
 
 /* import places__berea at-rules*/
 @import url(../blocks/places/__berea/places__berea.css);
@@ -45,7 +52,6 @@
 @import url(../blocks/places/__berea/_paragraph/places__berea_paragraph.css);
 @import url(../blocks/places/__berea/_link/places__berea_link.css);
 
-
 /* import places__muramvya at-rules*/
 @import url(../blocks/places/__muramvya/places__muramvya.css);
 @import url(../blocks/places/__muramvya/_title/places__muramvya_title.css);
@@ -53,6 +59,28 @@
 @import url(../blocks/places/__muramvya/_image/places__muramvya_image.css);
 @import url(../blocks/places/__muramvya/_paragraph/places__muramvya_paragraph.css);
 @import url(../blocks/places/__muramvya/_link/places__muramvya_link.css);
+
+/* import places__colima at-rules*/
+@import url(../blocks/places/__colima/places__colima.css);
+@import url(../blocks/places/__colima/_title/places__colima_title.css);
+@import url(../blocks/places/__colima/_artista/places__colima_artista.css);
+@import url(../blocks/places/__colima/_image/places__colima_image.css);
+@import url(../blocks/places/__colima/_paragraph/places__colima_paragraph.css);
+@import url(../blocks/places/__colima/_link/places__colima_link.css);
+
+/* import visit__us at-rules*/
+@import url(../blocks/visit-us/visit-us.css);
+@import url(../blocks/visit-us/__information/visit-us__information.css);
+@import url(../blocks/visit-us/__image/visit-us__image.css);
+
+/* import footer at-rules*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+
+
+
+
+
 
 *{
     outline: 2px solid rgb(0, 208, 255);
@@ -63,120 +91,53 @@
 
 
 
-.places__criccieth{
-    width: 100%;
-    height: fit-content;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap; 
-    margin-bottom: 8%;
+
+
+
+@media screen and (max-width:768px) {
+    .root{
+        max-width: 768px;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .intro{
+        width: 93%;
+    }
+
+    .intro__quote{
+        width: 100%;
+    }
+    .intro__qoute{
+        width: 100%;
+    }
+    
+    .intro__qoute-author{
+        width: 100%;
+    }
+
+    .intro__text{
+        width: 100%;
+    }
+
+    .photo-grid{
+        width: 93%;
+        grid-template-columns: repeat(2 , .5fr);
+        grid-template-rows: repeat(4 , 1fr);
+        grid-gap: 1rem;
+    }
+
+    .places{
+        width: 95%;
+    }
+
 }
 
-.places__criccieth-title-container{
-    width: 45%;
-    height: 152px;
-    margin: 0;
-    margin-right: 4%;
-}
-.places__criccieth-title{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 1.06;
-    color: #FFFFFF;
-    margin: 0;
 
-}
 
-.places__criccieth-artista-container{
-    width:fit-content;
-    height: fit-content;
-    margin-top: 8.5%;
-}
 
-.places__criccieth-artista-heading{
-    width: fit-content;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.2;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #AAAAAA;
-    margin: 0;
-    margin-bottom: 2%;
-}
-
-.places__criccieth-artista{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.places__criccieth-image-container{
-    width: 45%;
-    height: fit-content;
-    margin: 0;
-    margin-right: 4%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.places__criccieth-image{
-    width: fit-content;
-    height: fit-content;
-}
-
-.places__criccieth-paragraph-container{
-    width: 51%;
-    height: fit-content;
-    margin: 0;
-    margin-top: 5%;
-}
-
-.places__criccieth-paragraph-1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.places__criccieth-paragraph-2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    margin: 0;
-    margin-top: 5%;
-}
-
-.places__criccieth-link{
-    width: 33%;
-    background: #0278FE;
-    border-radius: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.places__criccieth-link:hover{
-    background-color: #0063D2;
-}
 
 
 

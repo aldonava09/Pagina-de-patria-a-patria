@@ -1,0 +1,9 @@
+.visit-us__image{
+    width: 100%; 
+    height: auto;
+    opacity: .8;
+}
+
+.visit-us:hover > .visit-us__image{
+    opacity: .3;
+}

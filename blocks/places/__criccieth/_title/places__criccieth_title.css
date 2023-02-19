@@ -1,0 +1,15 @@
+.places__criccieth-title-container{
+    width: 45%;
+    height: 152px;
+    margin: 0;
+    margin-right: 4%;
+}
+.places__criccieth-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFFFFF;
+    margin: 0;
+}
