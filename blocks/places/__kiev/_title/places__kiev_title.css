@@ -1,6 +1,6 @@
 .places__kiev-title-container{
     width: 45%;
-    height: 152px;
+    height: fit-content;
     margin: 0;
     margin-right: 4%;
 }

@@ -77,9 +77,8 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 
-
-
-
+/* import media-queries 768px at-rules*/
+@import url(../blocks/media-queries/__768px/media-queries__768px.css);
 
 
 *{
@@ -89,51 +88,6 @@
 
 
 
-
-
-
-
-
-@media screen and (max-width:768px) {
-    .root{
-        max-width: 768px;
-    }
-
-    .header{
-        width: 100%;
-    }
-
-    .intro{
-        width: 93%;
-    }
-
-    .intro__quote{
-        width: 100%;
-    }
-    .intro__qoute{
-        width: 100%;
-    }
-    
-    .intro__qoute-author{
-        width: 100%;
-    }
-
-    .intro__text{
-        width: 100%;
-    }
-
-    .photo-grid{
-        width: 93%;
-        grid-template-columns: repeat(2 , .5fr);
-        grid-template-rows: repeat(4 , 1fr);
-        grid-gap: 1rem;
-    }
-
-    .places{
-        width: 95%;
-    }
-
-}
 
 
 

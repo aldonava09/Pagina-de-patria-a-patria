@@ -1,0 +1,292 @@
+
+@media screen and (max-width:768px){
+    .root{
+        max-width: 768px;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .intro{
+        width: 93%;
+    }
+
+    .intro__quote{
+        width: 100%;
+    }
+    .intro__qoute{
+        width: 100%;
+    }
+    
+    .intro__qoute-author{
+        width: 100%;
+    }
+
+    .intro__text{
+        width: 100%;
+    }
+
+    .photo-grid{
+        width: 93%;
+        grid-template-columns: repeat(2 , .5fr);
+        grid-template-rows: repeat(4 , 1fr);
+        grid-gap: 1rem;
+    }
+
+    .places{
+        width: 95%;
+    }
+
+    .places__kiev{
+        position: relative;
+    }
+
+    .places__kiev-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1.1;
+        color: #FFFFFF;
+    }
+
+    .places__kiev-artista-container{
+        width: 45%;
+        height: fit-content;
+        margin-top: 0;
+    }
+
+    .places__kiev-paragraph-1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+    
+    .places__kiev-paragraph-2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+
+    .places__kiev-link{
+        width: 45%;
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .places__criccieth{
+        position: relative;
+    }
+
+    .places__criccieth-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1.1;
+        color: #FFFFFF;
+    }
+
+    .places__criccieth-artista-container{
+        width: 45%;
+        height: fit-content;
+        margin-top: 0;
+    }
+
+    .places__criccieth-paragraph-1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+    
+    .places__criccieth-paragraph-2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+
+    .places__criccieth-link{
+        width: 45%;
+        position: absolute;
+        bottom: 75px;
+    }
+
+    .places__berea{
+        position: relative;
+    }
+
+    .places__berea-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1.1;
+        color: #FFFFFF;
+    }
+
+    .places__berea-artista-container{
+        width: 45%;
+        height: fit-content;
+        margin-top: 0;
+    }
+    .places__berea-image-container{
+        margin-top: 0;
+    }
+
+    .places__berea-paragraph-container{
+        margin-top: 0;
+    }
+    
+
+    .places__berea-paragraph-1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+    
+    .places__berea-paragraph-2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+
+    .places__berea-link{
+        width: 45%;
+        position: absolute;
+        bottom: 95px;
+    }
+
+    .places__muramvya{
+        position: relative;
+    }
+
+    .places__muramvya-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1.1;
+        color: #FFFFFF;
+    }
+
+    .places__muramvya-artista-container{
+        width: 45%;
+        height: fit-content;
+        margin-top: 0;
+    }
+    .places__muramvya-image-container{
+        margin-top: 0;
+    }
+
+    .places__muramvya-paragraph-container{
+        margin-top: 0;
+    }
+    
+
+    .places__muramvya-paragraph-1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+    
+    .places__muramvya-paragraph-2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+        
+    .places__muramvya-paragraph-3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+
+    .places__muramvya-link{
+        width: 45%;
+        position: absolute;
+        bottom: 215px;
+    }
+
+    .places__colima{
+        position: relative;
+    }
+
+    .places__colima-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1.1;
+        color: #FFFFFF;
+    }
+
+    .places__colima-artista-container{
+        width: 45%;
+        height: fit-content;
+        margin-top: 0;
+    }
+
+    .places__colima-paragraph-1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+    
+    .places__colima-paragraph-2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #FFFFFF;
+    }
+
+    .places__colima-link{
+        width: 45%;
+        position: absolute;
+        bottom: 45px;
+    }
+
+    .visit-us{
+        width: 100%;
+    }
+
+    .visit-us__image {
+        width: 155%;
+    }
+    
+    .visit-us__information-link{
+        width: 50%;
+    }
+}
