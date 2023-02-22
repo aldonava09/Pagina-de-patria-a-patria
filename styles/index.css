@@ -80,15 +80,8 @@
 /* import media-queries 768px at-rules*/
 @import url(../blocks/media-queries/__768px/media-queries__768px.css);
 
-
-*{
-    outline: 2px solid rgb(0, 208, 255);
-}
-
-
-
-
-
+/* import media-queries 425px at-rules*/
+@import url(../blocks/media-queries/__425px/media-queries__425px.css);
 
 
 

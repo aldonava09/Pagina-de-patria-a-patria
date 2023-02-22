@@ -1,5 +1,4 @@
-
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     .root{
         max-width: 768px;
     }
@@ -15,11 +14,8 @@
     .intro__quote{
         width: 100%;
     }
-    .intro__qoute{
-        width: 100%;
-    }
     
-    .intro__qoute-author{
+    .intro__quote-author{
         width: 100%;
     }
 

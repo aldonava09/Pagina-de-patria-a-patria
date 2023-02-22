@@ -1,0 +1,433 @@
+
+@media screen and (max-width: 425px){
+    .root{
+        max-width: 320px;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .logo__image{
+        width: 75%;
+        margin-top: 6.5%;
+    }
+
+    .header{
+        width: 100%;
+        margin-top: 15.5%;
+        margin-bottom: 14%;
+    }
+
+    .header__title{
+        width: 90%;
+    }
+
+    .header__title-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1.1;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .header__subtitle{
+        width: 90%;
+        margin-top: 19%;
+        margin-bottom: 12.5%;
+    }
+
+    .header__subtitle-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .intro{
+        margin-bottom: 12%;
+    }
+
+    .intro__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .intro__quote{
+        margin: 0;
+        margin-top: 3%;
+    }
+
+    .intro__quote-author{
+        position: static;
+        margin: 0;
+    }
+
+    .photo-grid{
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(8 , 1fr);
+        grid-gap: 0.75rem;
+    }
+
+    .places{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .places__kiev{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    .places__kiev-title-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__kiev-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .places__kiev-artista-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__kiev-artista-heading{
+        margin-bottom: 2.7%;
+    }
+
+    .places__kiev-image-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .places__kiev-paragraph-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 2.5%;
+    }
+
+    .places__kiev-paragraph-2{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__kiev-link{
+        width: 93%;
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 3.5;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .places__criccieth{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    .places__criccieth-title-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__criccieth-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .places__criccieth-artista-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__criccieth-artista-heading{
+        margin-bottom: 2.7%;
+    }
+
+    .places__criccieth-image-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .places__criccieth-paragraph-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 2.5%;
+    }
+
+    .places__criccieth-paragraph-2{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__criccieth-link{
+        width: 93%;
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 3.5;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .places__berea{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    .places__berea-title-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__berea-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .places__berea-artista-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+        position: static;
+    }
+
+    .places__berea-artista-heading{
+        margin-bottom: 2.7%;
+    }
+
+    .places__berea-image-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .places__berea-paragraph-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 2.5%;
+    }
+
+    .places__berea-paragraph-2{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__berea-link{
+        width: 93%;
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 3.5;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .places__muramvya{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    .places__muramvya-title-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__muramvya-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .places__muramvya-artista-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__muramvya-artista-heading{
+        margin-bottom: 2.7%;
+    }
+
+    .places__muramvya-image-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .places__muramvya-paragraph-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 2.5%;
+    }
+
+    .places__muramvya-paragraph-2{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__muramvya-paragraph-3{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__muramvya-link{
+        width: 93%;
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 3.5;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .places__colima{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    .places__colima-title-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__colima-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        color: #FFFFFF;
+    }
+
+    .places__colima-artista-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 9.5%;
+    }
+
+    .places__colima-artista-heading{
+        margin-bottom: 2.7%;
+    }
+
+    .places__colima-image-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .places__colima-paragraph-container{
+        width: 93%;
+        margin: 0;
+        margin-bottom: 2.5%;
+    }
+
+    .places__colima-paragraph-2{
+        margin: 0;
+        margin-top: 2.4%;
+    }
+
+    .places__colima-link{
+        width: 93%;
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 3.5;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .visit-us{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .visit-us__information-container{
+        width: 93%;
+    }
+
+    .visit-us__information-title{
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .visit-us__information-text{
+        width: 100%;
+        margin-top: 9.1%;
+        margin-bottom: 9.1%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .visit-us__information-link{
+        width: 70%;
+        line-height: 2.5;
+    }
+
+    .visit-us__image{
+        width: 135%;
+    }
+
+    .footer__text{
+        line-height: 1;
+        margin-bottom: 7.5%;
+    }
+}
