@@ -25,11 +25,17 @@
     color: #FFFDFD;
 }
 
-.visit-us__information-text{
+.visit-us__information-text-container{
     margin: 0;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    width: fit-content;
+}
+
+.visit-us__information-text{
+    margin: 0;
+    margin: auto;
     width: fit-content;
     font-family: 'Inter';
     font-style: normal;
@@ -39,6 +45,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+
 
 .visit-us__information-link{
     margin: 0;
