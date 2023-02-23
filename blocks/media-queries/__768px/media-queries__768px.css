@@ -53,7 +53,7 @@
         margin-top: 0;
     }
 
-    .places__kiev-paragraph-1{
+    .places__kiev-paragraph-top{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -62,7 +62,7 @@
         color: #FFFFFF;
     }
     
-    .places__kiev-paragraph-2{
+    .places__kiev-paragraph-middle{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -96,7 +96,7 @@
         margin-top: 0;
     }
 
-    .places__criccieth-paragraph-1{
+    .places__criccieth-paragraph-top{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -105,7 +105,7 @@
         color: #FFFFFF;
     }
     
-    .places__criccieth-paragraph-2{
+    .places__criccieth-paragraph-middle{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -147,7 +147,7 @@
     }
     
 
-    .places__berea-paragraph-1{
+    .places__berea-paragraph-top{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -156,7 +156,7 @@
         color: #FFFFFF;
     }
     
-    .places__berea-paragraph-2{
+    .places__berea-paragraph-middle{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -198,7 +198,7 @@
     }
     
 
-    .places__muramvya-paragraph-1{
+    .places__muramvya-paragraph-top{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -207,7 +207,7 @@
         color: #FFFFFF;
     }
     
-    .places__muramvya-paragraph-2{
+    .places__muramvya-paragraph-middle{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -216,7 +216,7 @@
         color: #FFFFFF;
     }
         
-    .places__muramvya-paragraph-3{
+    .places__muramvya-paragraph-bottom{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -250,7 +250,7 @@
         margin-top: 0;
     }
 
-    .places__colima-paragraph-1{
+    .places__colima-paragraph-top{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -259,7 +259,7 @@
         color: #FFFFFF;
     }
     
-    .places__colima-paragraph-2{
+    .places__colima-paragraph-middle{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;

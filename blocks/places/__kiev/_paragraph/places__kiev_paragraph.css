@@ -5,7 +5,7 @@
     margin-top: 5%;
 }
 
-.places__kiev-paragraph-1{
+.places__kiev-paragraph-top{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.places__kiev-paragraph-2{
+.places__kiev-paragraph-middle{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
