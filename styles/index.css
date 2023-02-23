@@ -80,5 +80,5 @@
 /* import media-queries 768px at-rules*/
 @import url(../blocks/media-queries/__768px/media-queries__768px.css);
 
-/* import media-queries 425px at-rules*/
+/* import media-queries 480px at-rules*/
 @import url(../blocks/media-queries/__480px/media-queries__480px.css);
